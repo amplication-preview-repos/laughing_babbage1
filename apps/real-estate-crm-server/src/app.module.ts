@@ -3,6 +3,8 @@ import { ClientModule } from "./client/client.module";
 import { PropertyModule } from "./property/property.module";
 import { AppointmentModule } from "./appointment/appointment.module";
 import { AgentModule } from "./agent/agent.module";
+import { DashboardModule } from "./Dashboard/dashboard.module";
+import { FacebookPostIntegrationModule } from "./FacebookPostIntegration/facebookpostintegration.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -19,6 +21,8 @@ import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
     PropertyModule,
     AppointmentModule,
     AgentModule,
+    DashboardModule,
+    FacebookPostIntegrationModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
